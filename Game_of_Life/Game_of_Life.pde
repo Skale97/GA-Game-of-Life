@@ -37,8 +37,9 @@ void setup() {
   fill(0);
 }
 
+
 void draw() { 
-  //Change genes
+  //Change  genes
   if (gameOver) {
     gameOver = false;
     fit[gen] = generations-30;
